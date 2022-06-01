@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+main{
+    margin-top: 6rem;
+}
+
 body {
   text-align: center;
 }
@@ -35,7 +39,7 @@ ul {
   margin: auto;
 }
 
-#time {
+#awesome-date{
   text-align: right;
 }
 
@@ -115,6 +119,10 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+  main{
+        margin-top: 10rem;
+  }
+
   #bookForm {
     display: flex;
     flex-direction: column;
