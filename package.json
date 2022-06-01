@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ceemos96/Awesome-books-ES6-version/issues"
   },
-  "homepage": "https://github.com/Ceemos96/Awesome-books-ES6-version#readme"
+  "homepage": "https://github.com/Ceemos96/Awesome-books-ES6-version#readme",
+  "dependencies": {
+    "luxon": "^2.4.0"
+  }
 }
