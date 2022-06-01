@@ -1,4 +1,4 @@
-export * from "./books.js"
+export { AwesomeBooks };
 
 const bookForm = document.getElementById('bookForm');
 const booksContainer = document.querySelector('.books');
@@ -36,7 +36,7 @@ class AwesomeBooks {
     bookRemove.innerText = 'Remove';
     bookOutput.innerHTML = `"${title}" by ${author}`;
 
-    bookRemove.onclick = function() {
+    bookRemove.onclick = function () {
       bookRemove.parentElement.remove();
       let myIndex;
       for (let i = 0; i < books.length; i += 1) {
