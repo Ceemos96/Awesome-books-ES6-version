@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-main{
-    margin-top: 6rem;
+main {
+  margin-top: 6rem;
 }
 
 body {
@@ -39,7 +39,7 @@ ul {
   margin: auto;
 }
 
-#awesome-date{
+#awesome-date {
   text-align: right;
 }
 
@@ -119,8 +119,8 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  main{
-        margin-top: 10rem;
+  main {
+    margin-top: 10rem;
   }
 
   #bookForm {
