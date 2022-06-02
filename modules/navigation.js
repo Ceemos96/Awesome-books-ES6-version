@@ -1,3 +1,5 @@
+/* eslint-disable import/prefer-default-export */
+
 export const switchPages = () => {
   const link = document.querySelectorAll('.nav-link');
   const booksListSection = document.querySelector('#books-list');

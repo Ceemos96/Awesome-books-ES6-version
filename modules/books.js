@@ -1,4 +1,4 @@
-export { AwesomeBooks };
+/* eslint-disable import/prefer-default-export */
 
 const bookForm = document.getElementById('bookForm');
 const booksContainer = document.querySelector('.books');
@@ -6,7 +6,8 @@ const titleInput = bookForm.title;
 const authorInput = bookForm.author;
 const books = JSON.parse(localStorage.getItem('books')) || [];
 
-class AwesomeBooks {
+/* exported render */
+export class AwesomeBooks {
   addBook = (title, author) => {
     books.push({
       title,

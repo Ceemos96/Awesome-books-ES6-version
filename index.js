@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { AwesomeBooks } from './modules/books.js';
 import { switchPages } from './modules/navigation.js';
 import { DateTime } from '../node_modules/luxon/src/luxon.js';
@@ -18,5 +19,3 @@ displayDate();
 
 // call the switchPages function
 switchPages();
-
-AwesomeBooks;
